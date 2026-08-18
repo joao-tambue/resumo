@@ -1,0 +1,8 @@
+{
+  "name": "Blip Toast",
+  "description": "Biblioteca open source de toasts moderna e intuitiva para React Native.",
+  "technologies": ["TypeScript", "JavaScript", "Turbo", "React", "React Native"],
+  "impact": "+200 instalações nas primeiras duas semanas",
+  "github": "https://github.com/joao-tambue/Blip-toast",
+  "opensource": true
+}

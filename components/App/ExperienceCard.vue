@@ -34,7 +34,7 @@
         class="mt-2 text-xs font-medium text-primary-600 hover:text-primary-500 dark:text-primary-400"
         @click="expanded = !expanded"
       >
-        {{ expanded ? t("experience.seeLess") : t("experience.seeMore") }}
+        {{ expanded ? t("common.seeLess") : t("common.seeMore") }}
       </button>
     </div>
   </article>

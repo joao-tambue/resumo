@@ -1,4 +1,8 @@
 {
+  "common": {
+    "seeMore": "Ver mais",
+    "seeLess": "Ver menos"
+  },
   "nav": {
     "home": "Início",
     "projects": "Projetos",
@@ -27,13 +31,15 @@
     "sectionTitle": "Projetos em destaque",
     "viewAll": "Todos os projetos →",
     "pageTitle": "Projetos",
-    "pageDescription": "Trabalhei em vários projetos ao longo dos anos, mas estes são os que tenho mais orgulho. Muitos são open-source, por isso se algo te interessar, dá uma olhada no código e contribui se tiveres ideias de melhoria."
+    "pageDescription": "Trabalhei em vários projetos ao longo dos anos, mas estes são os que tenho mais orgulho. Muitos são open-source, por isso se algo te interessar, dá uma olhada no código e contribui se tiveres ideias de melhoria.",
+    "impact": "Impacto",
+    "github": "GitHub",
+    "demo": "Demo",
+    "privateRepo": "Repositório privado"
   },
   "experience": {
     "sectionTitle": "Experiência",
     "viewAll": "Ver experiência completa →",
-    "seeMore": "Ver mais",
-    "seeLess": "Ver menos",
     "pageTitle": "Experiência",
     "pageDescription": "A minha trajetória profissional como Frontend & Mobile Developer — empresas, projetos e desafios em que trabalhei."
   },

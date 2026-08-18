@@ -27,24 +27,19 @@ const { t } = useI18n();
 
 const links = [
   {
-    name: "Twitter",
-    url: "https://twitter.com/fayazara",
-    icon: "mdi:twitter",
-  },
-  {
     name: "GitHub",
-    url: "https://github.com/fayazara",
+    url: "https://github.com/joao-tambue",
     icon: "mdi:github",
   },
   {
     name: "Linkedin",
-    url: "https://www.linkedin.com/in/fayaz-aralikatti/",
+    url: "https://www.linkedin.com/in/joao-tambue/",
     icon: "mdi:linkedin",
   },
   {
-    name: "Telegram",
-    url: "https://t.me/fayazara",
-    icon: "mdi:telegram",
+    name: "Instagram",
+    url: "https://instagram.com/",
+    icon: "mdi:instagram",
   },
 ];
 </script>

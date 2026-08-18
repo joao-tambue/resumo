@@ -1,0 +1,7 @@
+{
+  "name": "Joyce Bot",
+  "description": "Engineering Project Assistant que recebe eventos do GitHub via webhook e notifica automaticamente canais do Discord sobre Pull Requests, builds e Issues.",
+  "technologies": ["Node.js", "Fastify", "TypeScript", "Prisma", "PostgreSQL", "Discord.js", "GitHub Webhooks"],
+  "impact": "60% de aumento de produtividade das equipas",
+  "opensource": false
+}
