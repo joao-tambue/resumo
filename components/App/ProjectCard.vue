@@ -1,9 +1,8 @@
 <template>
-  <NuxtLink
+  <component
+    :is="project.url ? 'NuxtLink' : 'div'"
     class="flex items-end gap-4 group p-2 -m-2 rounded-lg"
-    :to="project.url"
-    target="_blank"
-    external
+    v-bind="project.url ? { to: project.url, target: '_blank', external: true } : {}"
   >
     <div class="max-w-sm">
       <h3 class="text-sm font-medium group-hover:text-primary-600">
@@ -20,7 +19,7 @@
       size="md"
       :alt="project.name"
     />
-  </NuxtLink>
+  </component>
 </template>
 
 <script setup>
