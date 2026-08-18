@@ -1,0 +1,7 @@
+{
+  "name": "Website do CAF",
+  "description": "Website institucional do Colégio Árvore da Felicidade, com animações e transições fluidas.",
+  "technologies": ["Next.js", "SCSS", "CSS", "GSAP", "Framer Motion"],
+  "demo": "https://caf-website-official.vercel.app",
+  "opensource": false
+}

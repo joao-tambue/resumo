@@ -1,0 +1,7 @@
+{
+  "name": "Núcleo Tecnológico de Jovens Inventores",
+  "description": "Website institucional do Núcleo Tecnológico de Jovens Inventores, com suporte a múltiplos idiomas e conteúdo gerido por CMS.",
+  "technologies": ["Next.js", "i18n", "CMS", "Stripe"],
+  "demo": "https://nucleo-website.vercel.app/pt",
+  "opensource": false
+}

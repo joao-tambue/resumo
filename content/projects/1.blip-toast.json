@@ -4,5 +4,6 @@
   "technologies": ["TypeScript", "JavaScript", "Turbo", "React", "React Native"],
   "impact": "+200 instalações nas primeiras duas semanas",
   "github": "https://github.com/joao-tambue/Blip-toast",
+  "demo": "https://www.npmjs.com/package/blip-toast",
   "opensource": true
 }
