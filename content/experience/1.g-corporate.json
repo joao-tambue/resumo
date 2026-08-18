@@ -1,0 +1,12 @@
+{
+  "company": "G-Corporate",
+  "role": "Frontend Developer (Freelancer)",
+  "period": "Fev 2026 - Jul 2026",
+  "description": "Liderei a migração de um dashboard legado para Next.js 16 (-45% no tempo de carregamento), criei uma biblioteca de componentes com Storybook (-70% de inconsistências de UI) e integrei um gateway de pagamento com a PayPay Africa para transações internacionais.",
+  "highlights": [
+    "Liderei a migração de um dashboard legado para o Next.js 16, melhorando os tempos de carregamento em 45%.",
+    "Criei uma biblioteca de componentes com Storybook, reduzindo inconsistências de UI em 70%.",
+    "Otimizei performance de aplicações, reduzindo tempos de carregamento e melhorando métricas de experiência do usuário.",
+    "Trabalhei juntamente com o team da PayPay Africa para a integração de um serviço de gateway de pagamento que permitiu a PayPay ter a funcionalidade de conseguir fazer transações internacionais."
+  ]
+}

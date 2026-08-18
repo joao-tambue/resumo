@@ -1,0 +1,12 @@
+{
+  "company": "Lactus Tech",
+  "role": "Frontend & Mobile Developer (Remoto)",
+  "period": "Set 2025 - Fev 2026",
+  "description": "Desenvolvi plataforma digital de lavandaria com agendamento e rastreamento de pedidos, implementei cache e lazy loading num app de delivery (inicialização de 4.2s para 1.1s) e arquitetei o frontend de um software que prevê surtos de malária com dados climáticos da NASA.",
+  "highlights": [
+    "Desenvolvi plataforma digital para conectar clientes a profissionais de lavanderia, com agendamento online, rastreamento de pedidos e pagamento.",
+    "Implementei sistema de cache e lazy loading em app de delivery, reduzindo o tempo de inicialização de 4.2s para 1.1s (melhoria de 74%).",
+    "Arquitetei e desenvolvi o frontend de um software que prevê surtos de malária utilizando dados climáticos da API disponibilizada pela NASA.",
+    "Integrei pipeline de CI/CD com cobertura de testes de 92%, reduzindo bugs em produção em 60% e o tempo de deploy de 2h para 15min."
+  ]
+}

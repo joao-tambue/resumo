@@ -49,6 +49,11 @@ const items = [
     icon: "solar:folder-with-files-outline",
   },
   {
+    name: "Experience",
+    path: "/experience",
+    icon: "heroicons:briefcase",
+  },
+  {
     name: "Articles",
     path: "/articles",
     icon: "solar:document-add-outline",
