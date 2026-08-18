@@ -1,6 +1,6 @@
 <template>
   <main class="min-h-screen">
-    <AppHeader class="mb-12" title="Experience" :description="description" />
+    <AppHeader class="mb-12" :title="t('experience.pageTitle')" :description="t('experience.pageDescription')" />
     <div class="space-y-8">
       <AppExperienceCard
         v-for="(experience, id) in experiences"
@@ -12,11 +12,10 @@
 </template>
 
 <script setup>
-const description =
-  "A minha trajetória profissional como Frontend & Mobile Developer — empresas, projetos e desafios em que trabalhei.";
+const { t } = useI18n();
 useSeoMeta({
-  title: "Experience | João Tambue",
-  description,
+  title: () => `${t("experience.pageTitle")} | João Tambue`,
+  description: () => t("experience.pageDescription"),
 });
 
 const { data: experiences } = await useAsyncData("experience-all", () =>

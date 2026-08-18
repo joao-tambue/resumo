@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2 class="uppercase text-xs font-semibold text-gray-400 mb-6">
-      EXPERIENCE
+      {{ t("experience.sectionTitle") }}
     </h2>
     <div class="space-y-6">
       <AppExperienceCard
@@ -12,8 +12,8 @@
     </div>
     <div class="flex items-center justify-center mt-6 text-sm">
       <UButton
-        label="Full Experience &rarr;"
-        to="/experience"
+        :label="t('experience.viewAll')"
+        :to="localePath('/experience')"
         variant="link"
         color="gray"
       />
@@ -22,6 +22,9 @@
 </template>
 
 <script lang="ts" setup>
+const { t } = useI18n();
+const localePath = useLocalePath();
+
 const { data: experiences } = await useAsyncData("experience-home", () =>
   queryContent("/experience").limit(2).find()
 );

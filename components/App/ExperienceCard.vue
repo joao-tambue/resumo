@@ -34,7 +34,7 @@
         class="mt-2 text-xs font-medium text-primary-600 hover:text-primary-500 dark:text-primary-400"
         @click="expanded = !expanded"
       >
-        {{ expanded ? "Ver menos" : "Ver mais" }}
+        {{ expanded ? t("experience.seeLess") : t("experience.seeMore") }}
       </button>
     </div>
   </article>
@@ -48,5 +48,6 @@ defineProps({
   },
 });
 
+const { t } = useI18n();
 const expanded = ref(false);
 </script>

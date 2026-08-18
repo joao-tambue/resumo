@@ -1,6 +1,6 @@
 <template>
   <main class="min-h-screen">
-    <AppHeader class="mb-8" title="Bookmarks" :description="description" />
+    <AppHeader class="mb-8" :title="t('bookmarks.pageTitle')" :description="t('bookmarks.pageDescription')" />
     <ul class="space-y-2">
       <li v-for="bookmark in bookmarks" :key="bookmark.id">
         <a
@@ -27,11 +27,10 @@
 </template>
 
 <script setup>
-const description =
-  "Awesome things I've found on the internet. This page is still WIP, I want to add search like bmrks.com";
+const { t } = useI18n();
 useSeoMeta({
-  title: "Bookmarks | João Tambue",
-  description,
+  title: () => `${t("bookmarks.pageTitle")} | João Tambue`,
+  description: () => t("bookmarks.pageDescription"),
 });
 
 const bookmarks = [

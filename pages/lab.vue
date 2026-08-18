@@ -1,6 +1,6 @@
 <template>
   <main class="min-h-screen">
-    <AppHeader class="mb-12" title="Lab" :description="description" />
+    <AppHeader class="mb-12" title="Lab" :description="t('lab.pageDescription')" />
     <div class="space-y-24">
       <ContentList path="/lab" v-slot="{ list }">
         <ContentQuery
@@ -20,9 +20,9 @@
 </template>
 
 <script setup>
-const description = "Some random experiments with UI I do in my free time.";
+const { t } = useI18n();
 useSeoMeta({
   title: "Lab | João Tambue",
-  description,
+  description: () => t("lab.pageDescription"),
 });
 </script>

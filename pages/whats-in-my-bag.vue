@@ -2,24 +2,24 @@
   <main class="min-h-screen">
     <AppHeader
       class="mb-12"
-      title="What's in my bag?"
-      :description="description"
+      :title="t('bag.pageTitle')"
+      :description="t('bag.pageDescription')"
     />
     <div class="space-y-24">
       <ul class="space-y-8">
-        <AppUsesHeader title="Hardware" />
+        <AppUsesHeader :title="t('bag.hardware')" />
         <AppUsesItem v-for="(item, id) in hardware" :key="id" :item="item" />
       </ul>
       <ul class="space-y-8">
-        <AppUsesHeader title="Software" />
+        <AppUsesHeader :title="t('bag.software')" />
         <AppUsesItem v-for="(item, id) in software" :key="id" :item="item" />
       </ul>
       <ul class="space-y-8">
-        <AppUsesHeader title="Desk" />
+        <AppUsesHeader :title="t('bag.desk')" />
         <AppUsesItem v-for="(item, id) in desk" :key="id" :item="item" />
       </ul>
       <ul class="space-y-8">
-        <AppUsesHeader title="Other" />
+        <AppUsesHeader :title="t('bag.other')" />
         <AppUsesItem v-for="(item, id) in other" :key="id" :item="item" />
       </ul>
     </div>
@@ -27,11 +27,10 @@
 </template>
 
 <script setup>
-const description =
-  "Software I use, gadgets I love, and other things I recommend. Here's a big list of all of my favorite stuff.";
+const { t } = useI18n();
 useSeoMeta({
-  title: "Things I use | João Tambue",
-  description,
+  title: () => `${t("bag.pageTitle")} | João Tambue`,
+  description: () => t("bag.pageDescription"),
 });
 const { data: items } = await useAsyncData("uses", () =>
   queryContent("/uses").find()

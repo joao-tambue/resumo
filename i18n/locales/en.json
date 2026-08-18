@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "experience": "Experience",
+    "articles": "Articles",
+    "lab": "Lab",
+    "bag": "What's in my bag?",
+    "bookmarks": "Bookmarks"
+  },
+  "theme": {
+    "toggle": "Toggle theme"
+  },
+  "locale": {
+    "switch": "Switch language"
+  },
+  "intro": {
+    "greeting": "Hello!",
+    "paragraph1": "I'm João Tambue, a Frontend Software Engineer from Luanda, Angola. I have experience building web and mobile applications with React, Vue.js, React Native, TypeScript and JavaScript, crafting scalable, performant, user-experience-driven interfaces, and collaborating with cross-functional teams through code reviews and development best practices.",
+    "paragraph2": "I have experience with API integrations, modern architectures, automated testing, and using Artificial Intelligence to speed up development cycles and boost productivity. Outside of work, I enjoy taking part in technology and innovation challenges.",
+    "seoDescription": "João Tambue, Frontend Software Engineer from Luanda, Angola. Building web and mobile applications with React, Vue.js, React Native, TypeScript and JavaScript."
+  },
+  "social": {
+    "findMeOn": "Find me on"
+  },
+  "projects": {
+    "sectionTitle": "Featured projects",
+    "viewAll": "All Projects →",
+    "pageTitle": "Projects",
+    "pageDescription": "I've worked on tons of little projects over the years but these are the ones that I'm most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+  },
+  "experience": {
+    "sectionTitle": "Experience",
+    "viewAll": "Full Experience →",
+    "seeMore": "See more",
+    "seeLess": "See less",
+    "pageTitle": "Experience",
+    "pageDescription": "My professional journey as a Frontend & Mobile Developer — the companies, projects, and challenges I've worked on."
+  },
+  "articles": {
+    "sectionTitle": "Recent articles",
+    "viewAll": "All Articles →",
+    "pageTitle": "Articles",
+    "pageDescription": "All of my long-form thoughts on programming, user interfaces, product design, and more, collected in chronological order."
+  },
+  "newsletter": {
+    "title": "Stay in touch",
+    "description": "Get notified when I publish something new, and unsubscribe at any time.",
+    "emailPlaceholder": "Email Address",
+    "join": "Join →"
+  },
+  "footer": {
+    "rights": "© {year} João Tambue. All rights reserved."
+  },
+  "lab": {
+    "pageDescription": "Some random experiments with UI I do in my free time."
+  },
+  "bookmarks": {
+    "pageTitle": "Bookmarks",
+    "pageDescription": "Awesome things I've found on the internet. This page is still WIP, I want to add search like bmrks.com"
+  },
+  "bag": {
+    "pageTitle": "What's in my bag?",
+    "pageDescription": "Software I use, gadgets I love, and other things I recommend. Here's a big list of all of my favorite stuff.",
+    "hardware": "Hardware",
+    "software": "Software",
+    "desk": "Desk",
+    "other": "Other"
+  }
+}

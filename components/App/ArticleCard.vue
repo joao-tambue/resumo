@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="article._path" class="group">
+  <NuxtLink :to="localePath(article._path)" class="group">
     <article>
       <time
         class="relative z-10 order-first mb-3 flex items-center text-sm text-gray-400 dark:text-gray-500 pl-3.5"
@@ -33,9 +33,12 @@ defineProps({
   },
 });
 
+const localePath = useLocalePath();
+const { locale } = useI18n();
+
 const getReadableDate = (dateString) => {
   const date = new Date(dateString);
-  return date.toLocaleDateString("en-US", {
+  return date.toLocaleDateString(locale.value === "pt" ? "pt-PT" : "en-US", {
     year: "numeric",
     month: "short",
     day: "numeric",
