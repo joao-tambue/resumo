@@ -8,9 +8,7 @@
     "projects": "Projetos",
     "experience": "Experiência",
     "articles": "Artigos",
-    "lab": "Lab",
-    "bag": "O que tenho na mochila?",
-    "bookmarks": "Favoritos"
+    "lab": "Lab"
   },
   "theme": {
     "toggle": "Alternar tema"
@@ -60,17 +58,5 @@
   },
   "lab": {
     "pageDescription": "Algumas experiências aleatórias de UI que faço no meu tempo livre."
-  },
-  "bookmarks": {
-    "pageTitle": "Favoritos",
-    "pageDescription": "Coisas incríveis que encontrei na internet. Esta página ainda está em construção, quero adicionar pesquisa como no bmrks.com"
-  },
-  "bag": {
-    "pageTitle": "O que tenho na mochila?",
-    "pageDescription": "Software que uso, gadgets de que gosto e outras coisas que recomendo. Aqui vai uma grande lista das minhas coisas favoritas.",
-    "hardware": "Hardware",
-    "software": "Software",
-    "desk": "Secretária",
-    "other": "Outros"
   }
 }

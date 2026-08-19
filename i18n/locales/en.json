@@ -8,9 +8,7 @@
     "projects": "Projects",
     "experience": "Experience",
     "articles": "Articles",
-    "lab": "Lab",
-    "bag": "What's in my bag?",
-    "bookmarks": "Bookmarks"
+    "lab": "Lab"
   },
   "theme": {
     "toggle": "Toggle theme"
@@ -60,17 +58,5 @@
   },
   "lab": {
     "pageDescription": "Some random experiments with UI I do in my free time."
-  },
-  "bookmarks": {
-    "pageTitle": "Bookmarks",
-    "pageDescription": "Awesome things I've found on the internet. This page is still WIP, I want to add search like bmrks.com"
-  },
-  "bag": {
-    "pageTitle": "What's in my bag?",
-    "pageDescription": "Software I use, gadgets I love, and other things I recommend. Here's a big list of all of my favorite stuff.",
-    "hardware": "Hardware",
-    "software": "Software",
-    "desk": "Desk",
-    "other": "Other"
   }
 }

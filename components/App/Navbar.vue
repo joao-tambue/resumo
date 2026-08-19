@@ -65,15 +65,5 @@ const items = computed(() => [
     icon: "solar:document-add-outline",
   },
   { name: t("nav.lab"), to: localePath("/lab"), icon: "heroicons:beaker" },
-  {
-    name: t("nav.bag"),
-    to: localePath("/whats-in-my-bag"),
-    icon: "solar:backpack-outline",
-  },
-  {
-    name: t("nav.bookmarks"),
-    to: localePath("/bookmarks"),
-    icon: "solar:bookmark-linear",
-  },
 ]);
 </script>
