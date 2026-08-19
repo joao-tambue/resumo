@@ -1,5 +1,6 @@
 {
   "company": "G-Corporate",
+  "logo": "/jogs/g-corporate.png",
   "role": "Frontend Developer (Freelancer)",
   "period": "Fev 2026 - Jul 2026",
   "description": "Liderei a migração de um dashboard legado para Next.js 16 (-45% no tempo de carregamento), criei uma biblioteca de componentes com Storybook (-70% de inconsistências de UI) e integrei um gateway de pagamento com a PayPay Africa para transações internacionais.",

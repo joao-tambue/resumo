@@ -2,6 +2,7 @@
   <article class="flex gap-4">
     <div class="flex-none pt-1">
       <UAvatar
+        :src="experience.logo"
         :alt="experience.company"
         :ui="{ rounded: 'rounded z-10 relative' }"
         size="md"

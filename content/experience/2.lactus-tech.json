@@ -1,5 +1,6 @@
 {
   "company": "Lactus Tech",
+  "logo": "/jogs/lactus.jpeg",
   "role": "Frontend & Mobile Developer (Remoto)",
   "period": "Set 2025 - Fev 2026",
   "description": "Desenvolvi plataforma digital de lavandaria com agendamento e rastreamento de pedidos, implementei cache e lazy loading num app de delivery (inicialização de 4.2s para 1.1s) e arquitetei o frontend de um software que prevê surtos de malária com dados climáticos da NASA.",
